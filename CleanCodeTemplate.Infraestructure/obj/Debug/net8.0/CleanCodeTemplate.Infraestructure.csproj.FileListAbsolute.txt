@@ -1,0 +1,17 @@
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/bin/Debug/net8.0/CleanCodeTemplate.Infraestructure.deps.json
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/bin/Debug/net8.0/CleanCodeTemplate.Infraestructure.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/bin/Debug/net8.0/CleanCodeTemplate.Infraestructure.pdb
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/obj/Debug/net8.0/CleanCodeTemplate.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/obj/Debug/net8.0/CleanCodeTemplate.Infraestructure.AssemblyInfoInputs.cache
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/obj/Debug/net8.0/CleanCodeTemplate.Infraestructure.AssemblyInfo.cs
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/obj/Debug/net8.0/CleanCodeTemplate.Infraestructure.csproj.CoreCompileInputs.cache
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/obj/Debug/net8.0/CleanCodeTemplate.Infraestructure.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/obj/Debug/net8.0/refint/CleanCodeTemplate.Infraestructure.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/obj/Debug/net8.0/CleanCodeTemplate.Infraestructure.pdb
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/obj/Debug/net8.0/ref/CleanCodeTemplate.Infraestructure.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/bin/Debug/net8.0/CleanCodeTemplate.Application.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/bin/Debug/net8.0/CleanCodeTemplate.Domain.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/bin/Debug/net8.0/CleanCodeTemplate.Application.pdb
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/bin/Debug/net8.0/CleanCodeTemplate.Domain.pdb
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/obj/Debug/net8.0/CleanCodeTemplate.Infraestructure.csproj.AssemblyReference.cache
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/obj/Debug/net8.0/CleanCodeTemplate.Infraestructure.csproj.CopyComplete

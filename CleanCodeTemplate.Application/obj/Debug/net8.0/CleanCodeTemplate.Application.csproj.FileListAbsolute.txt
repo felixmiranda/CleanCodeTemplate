@@ -1,0 +1,15 @@
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/bin/Debug/net8.0/CleanCodeTemplate.Application.deps.json
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/bin/Debug/net8.0/CleanCodeTemplate.Application.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/bin/Debug/net8.0/CleanCodeTemplate.Application.pdb
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/obj/Debug/net8.0/CleanCodeTemplate.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/obj/Debug/net8.0/CleanCodeTemplate.Application.AssemblyInfoInputs.cache
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/obj/Debug/net8.0/CleanCodeTemplate.Application.AssemblyInfo.cs
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/obj/Debug/net8.0/CleanCodeTemplate.Application.csproj.CoreCompileInputs.cache
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/obj/Debug/net8.0/CleanCodeTemplate.Application.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/obj/Debug/net8.0/refint/CleanCodeTemplate.Application.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/obj/Debug/net8.0/CleanCodeTemplate.Application.pdb
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/obj/Debug/net8.0/ref/CleanCodeTemplate.Application.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/bin/Debug/net8.0/CleanCodeTemplate.Domain.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/bin/Debug/net8.0/CleanCodeTemplate.Domain.pdb
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/obj/Debug/net8.0/CleanCodeTemplate.Application.csproj.AssemblyReference.cache
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/obj/Debug/net8.0/CleanCodeTemplate.Application.csproj.CopyComplete

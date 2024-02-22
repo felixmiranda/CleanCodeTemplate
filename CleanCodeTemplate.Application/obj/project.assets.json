@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CleanCodeTemplate.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CleanCodeTemplate.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanCodeTemplate.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CleanCodeTemplate.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CleanCodeTemplate.Domain/CleanCodeTemplate.Domain.csproj",
+      "msbuildProject": "../CleanCodeTemplate.Domain/CleanCodeTemplate.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CleanCodeTemplate.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/felixmiranda/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/CleanCodeTemplate.Application.csproj",
+      "projectName": "CleanCodeTemplate.Application",
+      "projectPath": "/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/CleanCodeTemplate.Application.csproj",
+      "packagesPath": "/home/felixmiranda/.nuget/packages/",
+      "outputPath": "/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/felixmiranda/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/CleanCodeTemplate.Domain.csproj": {
+              "projectPath": "/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/CleanCodeTemplate.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.102/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/bin/Debug/net8.0/CleanCodeTemplate.Domain.deps.json
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/bin/Debug/net8.0/CleanCodeTemplate.Domain.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/bin/Debug/net8.0/CleanCodeTemplate.Domain.pdb
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/obj/Debug/net8.0/CleanCodeTemplate.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/obj/Debug/net8.0/CleanCodeTemplate.Domain.AssemblyInfoInputs.cache
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/obj/Debug/net8.0/CleanCodeTemplate.Domain.AssemblyInfo.cs
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/obj/Debug/net8.0/CleanCodeTemplate.Domain.csproj.CoreCompileInputs.cache
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/obj/Debug/net8.0/CleanCodeTemplate.Domain.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/obj/Debug/net8.0/refint/CleanCodeTemplate.Domain.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/obj/Debug/net8.0/CleanCodeTemplate.Domain.pdb
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/obj/Debug/net8.0/ref/CleanCodeTemplate.Domain.dll

@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  postgresDBCleanCodeTemplate:
+    image: postgres:16.2
+    restart: always
+    volumes:
+      - ./containers/database:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:
+      - DATABASE_HOST=127.0.0.1
+      - POSTGRES_USER=felixpg
+      - POSTGRES_PASSWORD=passfelix
+      - POSTGRES_DB=CleanCodeTemplateDB
