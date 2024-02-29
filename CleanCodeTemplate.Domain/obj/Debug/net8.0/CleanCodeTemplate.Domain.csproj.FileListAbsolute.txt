@@ -9,3 +9,4 @@
 /home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/obj/Debug/net8.0/refint/CleanCodeTemplate.Domain.dll
 /home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/obj/Debug/net8.0/CleanCodeTemplate.Domain.pdb
 /home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/obj/Debug/net8.0/ref/CleanCodeTemplate.Domain.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Domain/obj/Debug/net8.0/CleanCodeTemplate.Domain.sourcelink.json

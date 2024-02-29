@@ -13,3 +13,4 @@
 /home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/bin/Debug/net8.0/CleanCodeTemplate.Domain.pdb
 /home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/obj/Debug/net8.0/CleanCodeTemplate.Application.csproj.AssemblyReference.cache
 /home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/obj/Debug/net8.0/CleanCodeTemplate.Application.csproj.CopyComplete
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/obj/Debug/net8.0/CleanCodeTemplate.Application.sourcelink.json
