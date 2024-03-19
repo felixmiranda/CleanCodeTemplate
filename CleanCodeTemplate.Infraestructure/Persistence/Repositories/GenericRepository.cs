@@ -18,7 +18,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
 
     public async Task<IEnumerable<T>> GetAllAsync()
     {
-        var response = await _entity.Where(x => x.State == 1 && x.AuditDeleteUser == null && x.AuditDeleteDate == null).ToListAsync();
+        var response = await _entity.Where(x => x.AuditDeleteUser == null && x.AuditDeleteDate == null).ToListAsync();
 
         return response;
     }
@@ -69,5 +69,11 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
         return recordsAffected > 0;
 
 
+    }
+
+    public IQueryable<T> GetAllQueryable()
+    {
+        var response = _entity.Where(x => x.AuditDeleteUser == null && x.AuditDeleteDate == null);
+        return response;
     }
 }

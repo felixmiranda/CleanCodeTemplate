@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "HVlGFRU2clLmC41hgLHJX9Q55yimpUpeqzCXzQc1NAT411WA+qwPPBBinGdkfK4RHls8L2but7NLhkM6uj8cng==",
+  "dgSpecHash": "eIpC0TTMwKP6NoKv9wQv+gHR0e6YlUdm8uNecMAJ8IfUceWzaPDy5ODYTxQIYZjypZCUupAy0jC2CTsLCXErFQ==",
   "success": true,
   "projectFilePath": "/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Infraestructure/CleanCodeTemplate.Infraestructure.csproj",
   "expectedPackageFiles": [
+    "/home/felixmiranda/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/home/felixmiranda/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/home/felixmiranda/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/felixmiranda/.nuget/packages/microsoft.entityframeworkcore/8.0.2/microsoft.entityframeworkcore.8.0.2.nupkg.sha512",
     "/home/felixmiranda/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.2/microsoft.entityframeworkcore.abstractions.8.0.2.nupkg.sha512",
     "/home/felixmiranda/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.2/microsoft.entityframeworkcore.analyzers.8.0.2.nupkg.sha512",
@@ -18,7 +21,8 @@
     "/home/felixmiranda/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
     "/home/felixmiranda/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/home/felixmiranda/.nuget/packages/npgsql/8.0.2/npgsql.8.0.2.nupkg.sha512",
-    "/home/felixmiranda/.nuget/packages/npgsql.entityframeworkcore.postgresql/8.0.2/npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512"
+    "/home/felixmiranda/.nuget/packages/npgsql.entityframeworkcore.postgresql/8.0.2/npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512",
+    "/home/felixmiranda/.nuget/packages/system.linq.dynamic.core/1.3.10/system.linq.dynamic.core.1.3.10.nupkg.sha512"
   ],
   "logs": []
 }

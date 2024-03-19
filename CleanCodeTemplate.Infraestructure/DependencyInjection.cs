@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CleanCodeTemplate.Application;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -14,6 +15,9 @@ public static class DependencyInjection
             options => options.UseNpgsql(configuration.GetConnectionString("DockerConnection"), b => b.MigrationsAssembly(assembly))
         );
 
+        services.AddTransient<IUnitOfWork, UnitOfWork>();
+        services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+        services.AddTransient<IOrderingQuery, OrderingQuery>();
         return services;
     }
 }
