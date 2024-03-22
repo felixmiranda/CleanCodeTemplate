@@ -1,0 +1,11 @@
+@host=http://localhost:5196
+
+GET {{host}}/api/Customer/Register
+Content-Type: application/json
+
+{
+    "Name": "Adrian",
+    "LastName": "Mechato",
+    "Address": "San Carlos",
+    "City": "Lima - Comas"
+}

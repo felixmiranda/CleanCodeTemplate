@@ -27,46 +27,43 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
         var response = await _entity.SingleOrDefaultAsync(x => x.Id == id && x.AuditDeleteUser == null && x.AuditDeleteDate == null);
         return response!;
     }
-    public async Task<bool> CreateAsync(T entity)
+    public async Task CreateAsync(T entity)
     {
         entity.AuditCreateUser = 1;
-        entity.AuditCreateDate = DateTime.Now;
+        entity.AuditCreateDate = DateTime.UtcNow;
         entity.State = 1;
 
         await _context.AddAsync(entity);
 
-        var recordsAffected = await _context.SaveChangesAsync();
-
-        return recordsAffected > 0;
+        // var recordsAffected = await _context.SaveChangesAsync();
+        // return recordsAffected > 0;
     }
 
-    public async Task<bool> UpdateAsync(T entity)
+    public void UpdateAsync(T entity)
     {
         entity.AuditUpdateUser = 1;
-        entity.AuditUpdateDate = DateTime.Now;
+        entity.AuditUpdateDate = DateTime.UtcNow;
 
         _context.Update(entity);
 
         _context.Entry(entity).Property(x => x.AuditCreateUser).IsModified = false;
         _context.Entry(entity).Property(x => x.AuditCreateDate).IsModified = false;
 
-        var recordsAffected = await _context.SaveChangesAsync();
-
-        return recordsAffected > 0;
+        // var recordsAffected = await _context.SaveChangesAsync();
+        // return recordsAffected > 0;
     }
-    public async Task<bool> DeleteAsync(int id)
+    public async Task DeleteAsync(int id)
     {
         T entity = await GetByIdAsync(id);
 
         entity.AuditDeleteUser = 1;
-        entity.AuditDeleteDate = DateTime.Now;
+        entity.AuditDeleteDate = DateTime.UtcNow;
         entity.State = 0;
 
         _context.Update(entity);
 
-        var recordsAffected = await _context.SaveChangesAsync();
-
-        return recordsAffected > 0;
+        // var recordsAffected = await _context.SaveChangesAsync();
+        // return recordsAffected > 0;
 
 
     }
