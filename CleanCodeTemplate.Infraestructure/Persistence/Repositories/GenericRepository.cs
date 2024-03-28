@@ -31,7 +31,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
     {
         entity.AuditCreateUser = 1;
         entity.AuditCreateDate = DateTime.UtcNow;
-        entity.State = 1;
+
 
         await _context.AddAsync(entity);
 

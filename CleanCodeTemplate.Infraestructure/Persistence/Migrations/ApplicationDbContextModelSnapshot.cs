@@ -74,6 +74,60 @@ namespace CleanCodeTemplate.Infraestructure.Persistence.Migrations
 
                     b.ToTable("Customers");
                 });
+
+            modelBuilder.Entity("CleanCodeTemplate.Domain.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("UserId");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("AuditCreateDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("AuditCreateUser")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime?>("AuditDeleteDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int?>("AuditDeleteUser")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime?>("AuditUpdateDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int?>("AuditUpdateUser")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("State")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
+                });
 #pragma warning restore 612, 618
         }
     }

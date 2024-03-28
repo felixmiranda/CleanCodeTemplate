@@ -1,6 +1,6 @@
 @host=http://localhost:5196
 
-GET {{host}}/api/Customer/Register
+GET {{host}}/api/Customer/Create
 Content-Type: application/json
 
 {

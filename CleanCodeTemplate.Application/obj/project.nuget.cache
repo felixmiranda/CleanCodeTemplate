@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uhSeQcDtsju4hV2po8omhei/J8s7/gWLDFHyMQepqus57j2GAdiN/kNWQOcasx9Mh5wVM5nULZiDOiDN0bf6mg==",
+  "dgSpecHash": "yzwy9taJT+b0tun4NmfVan9S/IGfwH6I4AXCN6SxutvVzOkVNk4BxYyG0WGingps/+eON0c23cccTbZrQfQnPg==",
   "success": true,
   "projectFilePath": "/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Application/CleanCodeTemplate.Application.csproj",
   "expectedPackageFiles": [
     "/home/felixmiranda/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/home/felixmiranda/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/home/felixmiranda/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/home/felixmiranda/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/felixmiranda/.nuget/packages/microsoft.entityframeworkcore/8.0.2/microsoft.entityframeworkcore.8.0.2.nupkg.sha512",

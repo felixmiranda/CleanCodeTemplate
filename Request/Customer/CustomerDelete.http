@@ -1,0 +1,4 @@
+@host=http://localhost:5196
+
+PUT {{host}}/api/Customer/Delete/1
+Content-Type: application/json

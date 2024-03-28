@@ -1,0 +1,12 @@
+@host=http://localhost:5196
+
+PUT {{host}}/api/Customer/Update
+Content-Type: application/json
+
+{
+    "CustomerId": 1,
+    "Name": "Pepe2",
+    "LastName": "Juarez",
+    "Address": "San Isidro",
+    "City": "Lima"
+}

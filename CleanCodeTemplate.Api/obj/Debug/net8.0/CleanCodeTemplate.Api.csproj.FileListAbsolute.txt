@@ -113,3 +113,12 @@
 /home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Api/bin/Debug/net8.0/MediatR.dll
 /home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Api/bin/Debug/net8.0/MediatR.Contracts.dll
 /home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Api/bin/Debug/net8.0/System.Linq.Dynamic.Core.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Api/bin/Debug/net8.0/BCrypt.Net-Next.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Api/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Api/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/felixmiranda/NetCoreProject/CleanCode/CleanCodeTemplate/CleanCodeTemplate.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

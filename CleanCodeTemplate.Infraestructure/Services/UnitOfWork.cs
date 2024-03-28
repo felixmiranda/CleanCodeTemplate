@@ -7,6 +7,7 @@ public class UnitOfWork : IUnitOfWork
 {
     private readonly ApplicationDbContext _context;
     private readonly IGenericRepository<Customer> _customer = null!;
+    private readonly IUserRepository _user = null!;
 
     public UnitOfWork(ApplicationDbContext context)
     {
@@ -14,6 +15,8 @@ public class UnitOfWork : IUnitOfWork
     }
 
     public IGenericRepository<Customer> Customer => _customer ?? new GenericRepository<Customer>(_context);
+
+    public IUserRepository User => _user ?? new UserRepository(_context);
 
     public void Dispose()
     {

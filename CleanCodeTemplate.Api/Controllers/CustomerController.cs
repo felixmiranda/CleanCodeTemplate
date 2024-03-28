@@ -1,8 +1,10 @@
 ﻿using CleanCodeTemplate.Application;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CleanCodeTemplate.Api;
+[Authorize]
 [Route("api/[controller]")]
 [ApiController]
 public class CustomerController : ControllerBase
@@ -30,18 +32,25 @@ public class CustomerController : ControllerBase
         return Ok(response);
     }
 
-    [HttpPost("Register")]
+    [HttpPost("Create")]
     public async Task<IActionResult> CustomerRegister([FromBody] CreateCustomerCommand command)
     {
         var response = await _mediator.Send(command);
         return Ok(response);
     }
 
-    [HttpPost("Update")]
+    [HttpPut("Update")]
     public async Task<IActionResult> CustomerUpdate([FromBody] UpdateCustomerCommand command)
     {
         var response = await _mediator.Send(command);
         return Ok(response);
     }
 
+
+    [HttpPut("Delete/{customerId:int}")]
+    public async Task<IActionResult> CustomerDelete(int customerId)
+    {
+        var response = await _mediator.Send(new DeleteCustomerCommand() { CustomerId = customerId });
+        return Ok(response);
+    }
 }

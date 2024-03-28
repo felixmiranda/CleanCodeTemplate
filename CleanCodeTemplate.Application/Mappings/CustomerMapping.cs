@@ -3,9 +3,9 @@ using CleanCodeTemplate.Domain;
 
 namespace CleanCodeTemplate.Application;
 
-public class CustomerMappings : Profile
+public class CustomerMapping : Profile
 {
-    public CustomerMappings()
+    public CustomerMapping()
     {
         CreateMap<Customer, CustomerResponseDto>()
                     .ForMember(x => x.CustomerId, x => x.MapFrom(y => y.Id))

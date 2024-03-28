@@ -1,0 +1,6 @@
+@host=http://localhost:5196
+
+@token=
+GET {{host}}/api/Customer/1
+Content-Type: application/json
+Authorization: Bearer {{token}}
