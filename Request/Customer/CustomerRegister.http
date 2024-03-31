@@ -1,11 +1,14 @@
 @host=http://localhost:5196
 
-GET {{host}}/api/Customer/Create
+@token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiZ2l2ZW5fbmFtZSI6InJvZHJpZ28iLCJmYW1pbHlfbmFtZSI6Ik1pcmFuZGEiLCJqdGkiOiI4OWY2MDlhZS02NDE2LTQ1YmYtOTdmZS1jZGEzYWNhMjk4Y2IiLCJleHAiOjE3MTE5MTE1MzYsImlzcyI6ImZlbGl4bWlyYW5kYSIsImF1ZCI6ImZlbGl4bWlyYW5kYSJ9.LWgVR4FJGRUQ2EoVInufdCY2AZVyay7Sy34cvaZoZ1Y
+
+POST {{host}}/api/Customer/Create
 Content-Type: application/json
+Authorization: Bearer {{token}}
 
 {
-    "Name": "Adrian",
-    "LastName": "Mechato",
-    "Address": "San Carlos",
-    "City": "Lima - Comas"
+    "Name": "",
+    "LastName": "",
+    "Address": "San Carlos 1",
+    "City": "Lima - Comas 1"
 }

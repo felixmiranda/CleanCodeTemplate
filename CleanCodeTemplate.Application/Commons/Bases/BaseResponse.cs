@@ -6,5 +6,6 @@ public class BaseResponse<T>
     public T? Data { get; set; }
     public string Message { get; set; } = null!;
     public int TotalRecords { get; set; }
+    public IEnumerable<BaseError>? Errors { get; set; }
 
 }
