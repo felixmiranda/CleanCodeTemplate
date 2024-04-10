@@ -1,0 +1,6 @@
+{
+  "CleanCodeTemplate.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/felixmiranda\/NetCoreProject\/CleanCode\/CleanCodeTemplate\/CleanCodeTemplate.Api",
+  "CleanCodeTemplate.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/felixmiranda\/NetCoreProject\/CleanCode\/CleanCodeTemplate\/CleanCodeTemplate.Application",
+  "CleanCodeTemplate.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/felixmiranda\/NetCoreProject\/CleanCode\/CleanCodeTemplate\/CleanCodeTemplate.Domain",
+  "CleanCodeTemplate.Infraestructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/felixmiranda\/NetCoreProject\/CleanCode\/CleanCodeTemplate\/CleanCodeTemplate.Infraestructure"
+}

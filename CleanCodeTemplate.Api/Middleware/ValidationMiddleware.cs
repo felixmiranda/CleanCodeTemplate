@@ -1,5 +1,6 @@
 ﻿using System.Text.Json;
 using CleanCodeTemplate.Application;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 
 namespace CleanCodeTemplate.Api;
 

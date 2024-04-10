@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCodeTemplate.Domain", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCodeTemplate.Infraestructure", "CleanCodeTemplate.Infraestructure\CleanCodeTemplate.Infraestructure.csproj", "{19B0AD9C-9A6E-4500-9066-E96D0B8584CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCodeTemplate.Test", "CleanCodeTemplate.Test\CleanCodeTemplate.Test.csproj", "{88A5EBDD-E849-41AD-AE54-04986B050D65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{19B0AD9C-9A6E-4500-9066-E96D0B8584CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19B0AD9C-9A6E-4500-9066-E96D0B8584CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19B0AD9C-9A6E-4500-9066-E96D0B8584CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A5EBDD-E849-41AD-AE54-04986B050D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A5EBDD-E849-41AD-AE54-04986B050D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A5EBDD-E849-41AD-AE54-04986B050D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A5EBDD-E849-41AD-AE54-04986B050D65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,11 +1,16 @@
+using CleanCodeTemplate.Api;
 using CleanCodeTemplate.Application;
 using CleanCodeTemplate.Infraestructure;
+using HealthChecks.UI.Client;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services
     .AddInfrastructure(builder.Configuration)
-    .AddApplication();
+    .AddApplication()
+    .AddAuthentication(builder.Configuration)
+    .AddHealthCheck(builder.Configuration);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -23,9 +28,17 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseAuthentication();
-
 app.UseAuthorization();
-
+app.AddMiddlewareValitation();
 app.MapControllers();
+app.MapHealthChecksUI();
+app.MapHealthChecks("/health", new HealthCheckOptions
+{
+    Predicate = _ => true,
+    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+});
 
 app.Run();
+
+
+public partial class Program { }

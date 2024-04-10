@@ -9,13 +9,13 @@ public class CreateCustomerHandler : IRequestHandler<CreateCustomerCommand, Base
 {
     private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
-    private readonly IValidator<CreateCustomerCommand> _validator;
+    //private readonly IValidator<CreateCustomerCommand> _validator;
 
-    public CreateCustomerHandler(IUnitOfWork unitOfWork, IMapper mapper, IValidator<CreateCustomerCommand> validator)
+    public CreateCustomerHandler(IUnitOfWork unitOfWork, IMapper mapper)
     {
         _unitOfWork = unitOfWork;
         _mapper = mapper;
-        _validator = validator;
+        //  _validator = validator;
     }
 
 
@@ -24,14 +24,14 @@ public class CreateCustomerHandler : IRequestHandler<CreateCustomerCommand, Base
         var response = new BaseResponse<bool>();
         try
         {
-            var results = await _validator.ValidateAsync(request, cancellationToken);
+            // var results = await _validator.ValidateAsync(request, cancellationToken);
 
-            if (!results.IsValid)
-            {
-                response.IsSuccess = false;
-                response.Message = "Errores de validacion";
-                return response;
-            }
+            // if (!results.IsValid)
+            // {
+            //     response.IsSuccess = false;
+            //     response.Message = "Errores de validacion";
+            //     return response;
+            // }
 
             var customer = _mapper.Map<Customer>(request);
             await _unitOfWork.Customer.CreateAsync(customer);

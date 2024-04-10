@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleanCodeTemplate.Infraestructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7095fbf3adff68173a6e4b0510b6a0108d4cdd96")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c40ecb0be2b4bff080497ecb84289a92d9e69a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanCodeTemplate.Infraestructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanCodeTemplate.Infraestructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
